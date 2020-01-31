@@ -1,5 +1,5 @@
 {% set name = "opyplus" %}
-{% set version = "1.0.0.dev4" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openergy/opyplus/archive/v{{ version }}.tar.gz
-  sha256: 410c27dfbc24f3021576be46500f6946179743b93cc33870b7bc6f5d800afe88 
+  sha256: a25fd63d545f84a1c3c78c5c3a072daa1acbb292dd38ff9c4dfd3c5edd99116c
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - pandas >=0.19.2,<0.25
+    - pandas >=0.19.2,<2.0
     - unidecode >=1.0.22,<2.0
     - python-slugify >=3.0.2,<4.0
     - cchardet >=2.1.4,<3.0
