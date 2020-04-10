@@ -1,5 +1,5 @@
 {% set name = "opyplus" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/openergy/opyplus/archive/v{{ version }}.tar.gz
-  sha256: b90dafa72b9544816a8f571cb8c12a3e43aba37985fb7a36e44bb2074c27cdeb 
+  sha256: fb4b4e60198a6ad2984a17f4f8c16a3b1e126fa344584525dafbb9f922ea47f2
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -34,14 +34,14 @@ about:
   license: MPL-2.0
   license_family: MOZILLA
   license_file: LICENSE.txt
-  summary: 'A package to work with EnergyPlus in python'
+  summary: A package to work with EnergyPlus in python
   description: |
-        opyplus is a python package is a package that can be used to work with EnergyPlus in Python. 
-        More specifically, it allows to::
-             Parse, query and modify idf files efficiently, with a number of checks ensuring that your idf file remains correct throughout your work
-             Parse and create epw files
-             Launch simulations on EnergyPlus
-             Parse EnergyPlus output files
+    opyplus is a python package is a package that can be used to work with EnergyPlus in Python. 
+    More specifically, it allows to::
+         Parse, query and modify idf files efficiently, with a number of checks ensuring that your idf file remains correct throughout your work
+         Parse and create epw files
+         Launch simulations on EnergyPlus
+         Parse EnergyPlus output files
   doc_url: https://opyplus.readthedocs.io/
   dev_url: https://github.com/openergy/opyplus
 
