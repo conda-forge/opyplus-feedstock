@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openergy/opyplus/archive/v{{ version }}.tar.gz
-  sha256: 1a4aa7c440e5f09ce73bb08e0226cba58266fc7b8e15ff83530d8e6dfac5670f
+  sha256: 2e1c1121174034116a50f5865a979c583a212ea067d4e20819b0e200bf696418
 
 build:
   noarch: python
