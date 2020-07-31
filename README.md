@@ -5,7 +5,7 @@ Home: https://github.com/openergy/opyplus
 
 Package license: MPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A package to work with EnergyPlus in python
 
