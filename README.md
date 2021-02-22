@@ -5,9 +5,13 @@ Home: https://github.com/openergy/opyplus
 
 Package license: MPL-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opyplus-feedstock/blob/master/LICENSE.txt)
 
 Summary: A package to work with EnergyPlus in python
+
+Development: https://github.com/openergy/opyplus
+
+Documentation: https://opyplus.readthedocs.io/
 
 opyplus is a python package is a package that can be used to work with EnergyPlus in Python.
 More specifically, it allows to::
