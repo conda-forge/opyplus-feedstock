@@ -6,7 +6,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opyplus-feedsto
 Home: https://github.com/openergy/opyplus
 
 Package license: MPL-2.0
-
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opyplus-feedstock/blob/main/LICENSE.txt)
 Summary: A package to work with EnergyPlus in python
 
 Development: https://github.com/openergy/opyplus
@@ -156,5 +156,4 @@ Feedstock Maintainers
 =====================
 
 * [@ccruveiller](https://github.com/ccruveiller/)
-* [@geoffroy-destaintot](https://github.com/geoffroy-destaintot/)
 
