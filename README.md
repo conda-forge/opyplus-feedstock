@@ -1,12 +1,12 @@
-About opyplus
-=============
+About opyplus-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opyplus-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/openergy/opyplus
 
 Package license: MPL-2.0
-
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opyplus-feedstock/blob/main/LICENSE.txt)
-
 Summary: A package to work with EnergyPlus in python
 
 Development: https://github.com/openergy/opyplus
@@ -155,5 +155,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@geoffroy-destaintot](https://github.com/geoffroy-destaintot/)
+* [@ccruveiller](https://github.com/ccruveiller/)
 
