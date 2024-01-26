@@ -100,5 +100,6 @@ def main(args=None):
         if os.path.exists(recipe_license_file):
             os.remove(recipe_license_file)
 
+
 if __name__ == "__main__":
     main()
