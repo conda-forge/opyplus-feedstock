@@ -1,5 +1,5 @@
 {% set name = "opyplus" %}
-{% set version = "1.6.1" %}
+{% set version = "2.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/openergy/opyplus/archive/{{ version }}.tar.gz
-  sha256: 1bf7f44aebf7a19cd19342e4ff60af97b16abab91ab2782c6fe992f9871d29e4
+  sha256: d71002752cbe366fb5ce780a5d3bd73c21ec0272eab695cec251aebdc4a2f9a1
 
 
 build:
