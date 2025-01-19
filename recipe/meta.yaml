@@ -13,21 +13,23 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - pandas >=1.5.0,<3.0.0
     - unidecode >=1.0.22,<2.0
     - python-slugify >=3.0.2,<6.0
     - charset-normalizer >=3.2.0, <4.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - opyplus
 
